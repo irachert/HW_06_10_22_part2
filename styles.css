@@ -1,0 +1,65 @@
+
+.container{
+	display:flex;
+	justify-content:space-around;
+}
+
+.social-icons {
+	width: 5rem;
+  height: 5rem;
+	margin-top:1rem;
+  background: url("./Sprites/sprites.png");
+	cursor: pointer;
+  border: 1px solid #1996ad;
+  border-radius: .3rem;
+}
+
+.icons-facebook {
+	background-position:-94px -368px;
+	border-radius: 50%
+}
+.icons-facebook:hover {
+	background-position:-92px -166px;
+}
+.icons-facebook:active {
+	background-position:-94px -269px;
+}
+
+.icons-in {
+	background-position:-211px -168px;
+}
+.icons-in:hover {
+	background-position:-211px -466px;
+}
+.icons-in:active {
+	background-position:-216px -270px;
+	border-radius: 50%
+}
+
+.icons-youtube{
+	background-position:-396px -370px;
+	border-radius: 50%
+}
+.icons-youtube:hover {
+	background-position:-398px -270px;
+}
+.icons-youtube:active {
+	background-position:-391px -166px;
+}
+
+.icons-twitter{
+	background-position:-453px -168px;
+}
+.icons-twitter:hover {
+	background-position:-453px -466px;
+}
+.icons-twitter:active {
+	background-position:-456px -367px;
+	border-radius: 50%
+}
+
+form{
+	display:flex;
+	margin-top:3rem;
+	margin-left:2rem;
+}
